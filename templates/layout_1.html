@@ -1,0 +1,5 @@
+<div class="chart" style="grid-template-columns: repeat({{ length }}, 1fr);">
+  		{% for i in range(0,length) %}
+  			<div class="bar" style="grid-row-start:{{50 -form[i] }}; grid-row-end:{{ 50 + form[i] }};"></div>
+  		{% endfor %}
+</div>
